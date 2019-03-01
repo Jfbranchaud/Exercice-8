@@ -21,7 +21,7 @@
     
     .site-branding > .site-title {
     background-color:gainsboro;
-    font-size:2em;
+    font-size:0.8em;
     }
     
     .site-branding > .site-description {
@@ -56,26 +56,40 @@
     color:white;
     }
 
+
+    @include media(mobile){
+        .site-branding > .site-title {
+            background-color:gainsboro;
+            font-size:1em;
+            }  
+        }
+
     @include media(tablet){
-        
+        .site-branding > .site-title {
+            background-color:gainsboro;
+            font-size:1.4em;
+            }  
     }
 
 
     @include media(desktop){
-        .cours{
-
-            grid-template-columns: 1fr 1fr  1fr 1fr;
+        .site-branding > .site-title {
+            background-color:gainsboro;
+            font-size:1.8em;
+            }
     }
-}
+
 
     @include media(wide){
-        .cours{
+        .site-branding > .site-title {
+            background-color:gainsboro;
+            font-size:2em;
+            }
 
-            grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
     } 
     
 
-    }
+    
 
 
    

@@ -474,7 +474,7 @@ template {
 
 .site-branding > .site-title {
   background-color: gainsboro;
-  font-size: 2em;
+  font-size: 0.8em;
 }
 
 .site-branding > .site-description {
@@ -506,17 +506,31 @@ p {
   color: white;
 }
 
+@media only screen and (min-width: 600px) {
+  .site-branding > .site-title {
+    background-color: gainsboro;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .site-branding > .site-title {
+    background-color: gainsboro;
+    font-size: 1.4em;
+  }
+}
+
 @media only screen and (min-width: 1168px) {
-  .cours {
-    -ms-grid-columns: 1fr 1fr  1fr 1fr;
-        grid-template-columns: 1fr 1fr  1fr 1fr;
+  .site-branding > .site-title {
+    background-color: gainsboro;
+    font-size: 1.8em;
   }
 }
 
 @media only screen and (min-width: 1379px) {
-  .cours {
-    -ms-grid-columns: 1fr 1fr  1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+  .site-branding > .site-title {
+    background-color: gainsboro;
+    font-size: 2em;
   }
 }
 
