@@ -25,8 +25,8 @@
     }
     
     .site-branding > .site-description {
-        color:white;
-        font-size:1em;
+        color:#4481B2;
+        font-size:0.7em;
         
         }
     
@@ -62,12 +62,24 @@
             background-color:gainsboro;
             font-size:1em;
             }  
+        .site-branding > .site-description {
+            color:white;
+            font-size:1em;
+                
+            }
+
+
         }
 
     @include media(tablet){
         .site-branding > .site-title {
             background-color:gainsboro;
             font-size:1.4em;
+            }
+        .site-branding > .site-description {
+            color:white;
+            font-size:1em;
+                
             }  
     }
 
@@ -77,6 +89,11 @@
             background-color:gainsboro;
             font-size:1.8em;
             }
+        .site-branding > .site-description {
+            color:white;
+            font-size:1em;
+                
+            }
     }
 
 
@@ -84,6 +101,11 @@
         .site-branding > .site-title {
             background-color:gainsboro;
             font-size:2em;
+            }
+        .site-branding > .site-description {
+            color:white;
+            font-size:1em;
+                
             }
 
     } 

@@ -478,8 +478,8 @@ template {
 }
 
 .site-branding > .site-description {
-  color: white;
-  font-size: 1em;
+  color: #4481B2;
+  font-size: 0.7em;
 }
 
 .content-area {
@@ -511,12 +511,20 @@ p {
     background-color: gainsboro;
     font-size: 1em;
   }
+  .site-branding > .site-description {
+    color: white;
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .site-branding > .site-title {
     background-color: gainsboro;
     font-size: 1.4em;
+  }
+  .site-branding > .site-description {
+    color: white;
+    font-size: 1em;
   }
 }
 
@@ -525,12 +533,20 @@ p {
     background-color: gainsboro;
     font-size: 1.8em;
   }
+  .site-branding > .site-description {
+    color: white;
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 1379px) {
   .site-branding > .site-title {
     background-color: gainsboro;
     font-size: 2em;
+  }
+  .site-branding > .site-description {
+    color: white;
+    font-size: 1em;
   }
 }
 
