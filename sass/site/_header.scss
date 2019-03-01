@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Nineteen Enfant
+ Author:       Jf B
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+.site-branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .site-branding > .site-title {
+    background-color:gainsboro;
+    font-size:2em;
+    }
+    
+    .site-branding > .site-description {
+        color:white;
+        font-size:1em;
+        
+        }
+    
+    
+    .content-area{
+    background-color:black;
+    }
+    
+    p{
+    color:white;
+    
+    }
+    .entry-title{
+    color:white;
+    
+    }
+    
+    .site{
+    background-color:black;
+    
+    }
+    
+    .liste{
+    color:white;
+    }
+    .widget-title{
+    color:white;
+    }
