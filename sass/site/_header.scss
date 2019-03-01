@@ -55,3 +55,27 @@
     .widget-title{
     color:white;
     }
+
+    @include media(tablet){
+        
+    }
+
+
+    @include media(desktop){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+}
+
+    @include media(wide){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+    } 
+    
+
+    }
+
+
+   

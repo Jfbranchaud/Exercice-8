@@ -1,7 +1,7 @@
-@include media(mobile){
+
 .cours{
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 1fr;
 }
 
 .box{
@@ -10,4 +10,35 @@
  
 }
 
+@include media(mobile){
+    .cours{
+
+        grid-template-columns: 1fr 1fr;
 }
+    }
+
+    @include media(tablet){
+        .cours{
+
+            grid-template-columns: 1fr  1fr 1fr;
+    }    
+    }
+
+
+    @include media(desktop){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+}
+
+    @include media(wide){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+    } 
+    
+
+    }
+
+
