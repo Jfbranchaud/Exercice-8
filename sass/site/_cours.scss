@@ -1,4 +1,4 @@
-
+@include media(mobile){
 .cours{
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
@@ -8,4 +8,6 @@
     font-size:1em;
     display: flex;
  
+}
+
 }
